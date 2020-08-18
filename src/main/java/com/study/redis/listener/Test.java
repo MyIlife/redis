@@ -16,8 +16,8 @@ public class Test implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("进入redis");
+/*        System.out.println("进入redis");
         redisTemplate.opsForValue().set("test1","sdfsdfasdf");
-        System.out.println(redisTemplate.opsForValue().get("test1"));
+        System.out.println(redisTemplate.opsForValue().get("test1"));*/
     }
 }
